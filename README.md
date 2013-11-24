@@ -2,6 +2,10 @@
 
 Rotates the elements of an array in place. Supports rotation in both directions and automatically wraps rotations which are larger than the input array size.
 
+[![Build status](https://secure.travis-ci.org/CMTegner/rotate-array.png)](http://travis-ci.org/CMTegner/rotate-array) [![Dependency status](https://david-dm.org/CMTegner/rotate-array.png)](https://david-dm.org/CMTegner/rotate-array) [![NPM version](https://badge.fury.io/js/rotate-array.png)](https://npmjs.org/package/rotate-array)
+
+[![Browser support](https://ci.testling.com/CMTegner/rotate-array.png)](https://ci.testling.com/CMTegner/rotate-array)
+
 ## Installation
 
 ```bash
