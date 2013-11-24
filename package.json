@@ -32,7 +32,10 @@
       "ff/latest",
       "chrome/latest",
       "safari/latest",
-      "opera/latest"
+      "opera/latest",
+      "iphone/6..latest",
+      "ipad/6..latest",
+      "android/latest"
     ]
   }
 }
