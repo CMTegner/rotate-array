@@ -1,6 +1,6 @@
 {
   "name": "rotate-array",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Rotates the elements of an array in place. Supports rotation in both directions and automatically wraps rotations which are larger than the input array size.",
   "main": "index.js",
   "scripts": {
