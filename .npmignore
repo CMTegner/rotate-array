@@ -1,0 +1,5 @@
+.jscs.json
+.jshintrc
+.travis.yml
+.npmignore
+test
