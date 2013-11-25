@@ -28,11 +28,11 @@
   "testling": {
     "files": "test/*.js",
     "browsers": [
-      "ie/latest",
-      "ff/latest",
-      "chrome/latest",
-      "safari/latest",
-      "opera/latest",
+      "ie/8..latest",
+      "ff/3..latest",
+      "chrome/4..latest",
+      "safari/4..latest",
+      "opera/10..latest",
       "iphone/6..latest",
       "ipad/6..latest",
       "android/latest"
