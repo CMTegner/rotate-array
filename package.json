@@ -24,9 +24,9 @@
   },
   "homepage": "https://github.com/CMTegner/rotate-array",
   "devDependencies": {
-    "tape": "^2.12.3",
-    "jshint": "^2.5.0",
-    "jscs": "^1.4.3"
+    "tape": "~2.12.3",
+    "jshint": "~2.5.0",
+    "jscs": "~1.4.3"
   },
   "testling": {
     "files": "test/*.js",
