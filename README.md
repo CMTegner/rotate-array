@@ -15,10 +15,10 @@ npm i rotate-array
 ## Usage
 
 ```javascript
-var rotate = require("rotate-array");
+var rotate = require('rotate-array');
 ```
 
-### rotate(array, num)
+## rotate(array, num)
 
 Rotates the array `num` places to the left, i.e. it shifts `num` items out of the array and pushes them back on the end. The reverse is done when `num` is negative. In addition, `rotate` automatically wraps rotations which are larger than `array.length`.
 
