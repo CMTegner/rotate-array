@@ -4,7 +4,10 @@
   "description": "Rotates the elements of an array in place. Supports rotation in both directions and automatically wraps rotations which are larger than the input array size.",
   "main": "index.js",
   "scripts": {
-    "test": "jshint index.js test/*.js && jscs index.js test/*.js && tape test/*.js"
+    "jshint": "jshint index.js test/*.js",
+    "jscs": "jscs index.js test",
+    "tape": "tape test/*.js",
+    "test": "npm run jshint && npm run jscs && npm run tape"
   },
   "repository": {
     "type": "git",
