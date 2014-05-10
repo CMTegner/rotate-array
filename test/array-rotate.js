@@ -3,7 +3,7 @@
 var test = require('tape');
 var rotate = require('../');
 
-test('rotate with no num arg is a noop', function (t) {
+test('rotate with no num arg is a noop', function(t) {
     t.plan(1);
 
     var array = ['foo', 'bar'];
@@ -11,14 +11,14 @@ test('rotate with no num arg is a noop', function (t) {
     t.same(result, ['foo', 'bar']);
 });
 
-test('returns the input array', function (t) {
+test('returns the input array', function(t) {
     t.plan(1);
 
     var array = [];
     t.equal(rotate(array), array);
 });
 
-test('rotates according to positive num', function (t) {
+test('rotates according to positive num', function(t) {
     t.plan(3);
 
     var array = ['one', 'two', 'three', 'four'];
@@ -33,7 +33,7 @@ test('rotates according to positive num', function (t) {
     t.same(array, ['two', 'three', 'four', 'one']);
 });
 
-test('wraps when num is greater than array size', function (t) {
+test('wraps when num is greater than array size', function(t) {
     t.plan(3);
 
     var array = ['foo', 'bar', 'boom', 'bang', 'baz'];
@@ -48,7 +48,7 @@ test('wraps when num is greater than array size', function (t) {
     t.same(array, ['bang', 'baz', 'foo', 'bar', 'boom']);
 });
 
-test('rotates according to positive num', function (t) {
+test('rotates according to positive num', function(t) {
     t.plan(3);
 
     var array = ['one', 'two', 'three', 'four'];
@@ -63,7 +63,7 @@ test('rotates according to positive num', function (t) {
     t.same(array, ['four', 'one', 'two', 'three']);
 });
 
-test('wraps when abs(negative num) greater than array size', function (t) {
+test('wraps when abs(negative num) greater than array size', function(t) {
     t.plan(3);
 
     var array = ['foo', 'bar', 'boom', 'bang', 'baz'];

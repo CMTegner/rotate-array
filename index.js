@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = function (array, num) {
+module.exports = function(array, num) {
     num = (num || 0) % array.length;
     if (num < 0) {
         num += array.length;
