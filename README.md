@@ -2,7 +2,7 @@
 
 Rotates the elements of an array in place. Supports rotation in both directions and automatically wraps rotations which are larger than the input array size.
 
-[![Build status](https://travis-ci.org/CMTegner/rotate-array.svg)](http://travis-ci.org/CMTegner/rotate-array) [![devDependency status](https://david-dm.org/CMTegner/rotate-array/dev-status.svg)](https://david-dm.org/CMTegner/rotate-array) [![NPM version](https://badge.fury.io/js/rotate-array.svg)](https://npmjs.org/package/rotate-array)
+[![Build status](https://travis-ci.org/CMTegner/rotate-array.svg)](http://travis-ci.org/CMTegner/rotate-array) [![devDependency status](https://david-dm.org/CMTegner/rotate-array/dev-status.svg)](https://david-dm.org/CMTegner/rotate-array#info=devDependencies) [![NPM version](https://badge.fury.io/js/rotate-array.svg)](https://npmjs.org/package/rotate-array)
 
 [![Browser support](https://ci.testling.com/CMTegner/rotate-array.png)](https://ci.testling.com/CMTegner/rotate-array)
 
