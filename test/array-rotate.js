@@ -77,3 +77,16 @@ test('wraps when abs(negative num) greater than array size', function(t) {
     rotate(array, -12);
     t.same(array, ['boom', 'bang', 'baz', 'foo', 'bar']);
 });
+
+test('rotate.all returns every rotation', function(t) {
+    t.plan(1);
+
+    var array = [1, 2, 3, 4, 5];
+    t.same(rotate.all(array), [
+        [1, 2, 3, 4, 5],
+        [2, 3, 4, 5, 1],
+        [3, 4, 5, 1, 2],
+        [4, 5, 1, 2, 3],
+        [5, 1, 2, 3, 4]
+    ]);
+});
