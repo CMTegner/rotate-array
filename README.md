@@ -44,3 +44,19 @@ var beatles = ['paul', 'john', 'ringo', 'george'];
 rotate(beatles, 42);
 console.log(beatles); // [ 'ringo', 'george', 'paul', 'john' ]
 ```
+
+## rotate.all(array)
+
+Returns all rotations for the given array.
+
+Example:
+
+```js
+var beatles = ['paul', 'john', 'ringo', 'george'];
+var allRotations = rotate.all(beatles);
+console.log(allRotations);
+// [ [ 'paul', 'john', 'ringo', 'george' ],
+//   [ 'john', 'ringo', 'george', 'paul' ],
+//   [ 'ringo', 'george', 'paul', 'john' ],
+//   [ 'george', 'paul', 'john', 'ringo' ] ]
+```
