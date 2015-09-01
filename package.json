@@ -1,6 +1,6 @@
 {
   "name": "rotate-array",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Rotates the elements of an array in place. Supports rotation in both directions and automatically wraps rotations which are larger than the input array size.",
   "main": "index.js",
   "scripts": {
@@ -19,9 +19,10 @@
   ],
   "author": "Christian Tegnér",
   "contributors": [
-    { "name" : "David Ernst",
-      "email" : "npm@dsernst.com",
-      "url" : "http://dsernst.com/"
+    {
+      "name": "David Ernst",
+      "email": "npm@dsernst.com",
+      "url": "http://dsernst.com/"
     }
   ],
   "license": "BSD-2-Clause",
