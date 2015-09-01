@@ -18,6 +18,12 @@
     "rotate"
   ],
   "author": "Christian Tegnér",
+  "contributors": [
+    { "name" : "David Ernst",
+      "email" : "npm@dsernst.com",
+      "url" : "http://dsernst.com/"
+    }
+  ],
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/CMTegner/rotate-array/issues"
