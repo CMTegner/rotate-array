@@ -12,6 +12,9 @@ Rotates the elements of an array in place. Supports rotation in both directions 
 npm i rotate-array
 ```
 
+### Alternatives
+For usage via AMD / <script>, download a UMD bundle from [wzrd.in](http://wzrd.in/standalone/rotate-array@latest).
+
 ## Usage
 
 ```javascript
