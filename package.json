@@ -23,6 +23,10 @@
       "name": "David Ernst",
       "email": "npm@dsernst.com",
       "url": "http://dsernst.com/"
+    },
+    {
+      "name": "Andrew Vasylchuk",
+      "email": "andrew.d.vasilchuk@gmail.com"
     }
   ],
   "license": "BSD-2-Clause",
